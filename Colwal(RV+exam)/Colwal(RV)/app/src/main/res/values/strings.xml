@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Col wal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_app">AppActivity</string>
+    <string name="title_activity_app2">App2Activity</string>
+    <string name="title_activity_app3">App3Activity</string>
+    <string name="title_activity_app4">App4Activity</string>
+    <string name="title_activity_modules">modules</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_exam_fees">ExamFees</string>
+    <string name="title_activity_exam_recipt">ExamRecipt</string>
+    <string name="title_activity_rv">RvActivity</string>
+    <string name="title_activity_rv_recipt">RvRecipt</string>
+</resources>

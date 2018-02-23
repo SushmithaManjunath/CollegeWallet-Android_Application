@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.colwal" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".AppActivity"
+            android:label="@string/title_activity_app" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".App2Activity"
+            android:label="@string/title_activity_app2" >
+        </activity>
+        <activity
+            android:name=".App3Activity"
+            android:label="@string/title_activity_app3" >
+        </activity>
+        <activity
+            android:name=".App4Activity"
+            android:label="@string/title_activity_app4" >
+        </activity>
+        <activity
+            android:name=".modules"
+            android:label="@string/title_activity_modules" >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".ExamFees"
+            android:label="@string/title_activity_exam_fees" >
+        </activity>
+        <activity
+            android:name=".ExamRecipt"
+            android:label="@string/title_activity_exam_recipt" >
+        </activity>
+        <activity
+            android:name=".RvActivity"
+            android:label="@string/title_activity_rv" >
+        </activity>
+        <activity
+            android:name=".RvRecipt"
+            android:label="@string/title_activity_rv_recipt" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COLLEGE WALLET"
+        android:id="@+id/textView8"
+        android:textColor="#ff3d6aff" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:scaleType="center"
+        android:src="@drawable/col23"
+        android:background="#ffff1a61" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/button1"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ff5c93ff" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#ff5c8aff" />
+
+</LinearLayout>
+

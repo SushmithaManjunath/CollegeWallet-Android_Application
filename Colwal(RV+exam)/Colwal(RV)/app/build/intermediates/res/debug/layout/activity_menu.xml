@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.colwal.MenuActivity">
+
+    <TextView android:text="College Wallet" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exam"
+        android:id="@+id/button3"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView10"/>
+        //android:layout_toEndOf="@+id/textView10" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exam Fee Recipt"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_toRightOf="@+id/button3"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RV"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4"
+        android:layout_alignTop="@+id/button3"/>
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+</RelativeLayout>
+<!-- From: file:/C:/Users/HP/AndroidStudioProjects/Colwal%20sir/app/src/main/res/layout/activity_menu.xml -->
